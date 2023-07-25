@@ -1,0 +1,47 @@
+Q1:-  what is package?
+Ans:- A java package is a group of similar types of classes, interfaces and sub-packages.
+      Package in java can be categorized in two form, built-in package and user-defined package.
+      There are many built-in packages such as java, lang, awt, javax, swing, net, io, util, sql etc.
+
+Q2:-  what is in interface?
+Ans:- *Def: Any service requirenment specification
+      *It is used to achieve abstraction and multiple inheritance in Java.
+      *Every method present within interface by defalut public and abstract
+      *considered as 100% pure absrtract class
+      *It can be used to achieve loose coupling.
+
+Q3:-  Uniques of Java?
+Ans:- *Memory Managment and garbage collection
+      *Cross platform capabilities
+      *compiled into bytecode
+
+Q4:-  What is tight coupling and loose coupling?
+Ans:- Coupling refers to the degree of direct knowledge that one element has of another.
+      Class A is called volume, and class B evaluates the volume of a cylinder.
+      If you change class A volume, then you are  not forced to change class B. 
+      This is called loose coupling in Java. When class A requires changes in class B, then you have tight coupling
+
+Q5:-  What are Literals?
+Ans:- Literal are constant values that are used in program.
+      Literals are of a specific data type
+
+Q6:-  Why Java is Simple and secure?
+Ans:- Java is a simple language because its syntax is simple, clean, and easy to understand. 
+      Complex and ambiguous concepts of C++ are either eliminated or re-implemented in Java.
+      For example, pointer and  operator overloading are not used in Java.
+      Object-Oriented: In Java, everything is in the      form of the object.
+     
+      and secure because:
+       Java provides strong Exception Handling mechanism which makes it more secure as it does not allow to
+       run the program until you rectify the error. 
+       Java provides access modifier/access specifier like private, protected, public and default.
+       It helps in controlling the access of any member
+
+Q7:-  Difference Between signed and unsigned shift bitwise operations?
+
+
+Q8:-  What is Static modifier?
+Ans:- Static is the modifier applicable for methods and varibale but not for upper level classes but we can declare
+      inner classe as static called static nested class.
+      =>in the case of instanse variable a seperate copy will be created but in static variable a single copy is created a 
+        and shared among all the object of that class.
