@@ -45,3 +45,18 @@ Ans:- Static is the modifier applicable for methods and varibale but not for upp
       inner classe as static called static nested class.
       =>in the case of instanse variable a seperate copy will be created but in static variable a single copy is created a 
         and shared among all the object of that class.
+
+Q8    Why we use RunnableInterface to define thread instead to directly define  using Thread class?
+ANs:  1:Seperation Concern
+      2:Resource Sharing
+      3:Thread Pooling
+      4:Design Pattern
+
+Q9    Why we choose to decalre any variable or method static?
+Ans:  At some point, when you should decide to change the value of this constant,
+      it only takes one change to propagate this change correctly to all other classes that use this constant. 
+      A variable declared as static means that its value is shared by all instances of this class
+
+Q10  Why does join() working in thread?
+Ans  Join() method in Java allows one thread to wait until another thread completes its execution. 
+     In simpler words, it means it waits for the other thread to die
