@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">Registration</div>
+      <div class="content">
+        <form action="#">
+          <div class="user-details">
+            <div class="user-input">
+              <span class="details">FullName</span>
+              <input
+                type="text"
+                name="FullName"
+                placeholder="FullName"
+                required
+              />
+            </div>
+            <div class="user-input">
+              <span class="details">UserName</span>
+              <input
+                type="text"
+                name="UserName"
+                placeholder="UserName"
+                required
+              />
+            </div>
+            <div class="user-input">
+              <span class="details">Phone</span>
+              <input type="text" name="Phone" placeholder="Phone" required />
+            </div>
+            <div class="user-input">
+              <span class="details">Email</span>
+              <input type="text" name="Email" placeholder="Email" required />
+            </div>
+            <div class="user-input">
+              <span class="details">Password</span>
+              <input
+                type="text"
+                name="Password"
+                placeholder="Password"
+                required
+              />
+            </div>
+            <div class="user-input">
+              <span class="details">ConfirmPassword</span>
+              <input
+                type="text"
+                name="ConfirmPassword"
+                placeholder="ConfirmPassword"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="gender-Details">
+            <input type="radio" name="gender" id="dot-1" />
+            <input type="radio" name="gender" id="dot-2" />
+            <input type="radio" name="gender" id="dot-3" />
+
+            <div class="gender-Title">Gender</div>
+            <div class="category">
+              <label for="dot-1">
+                <span class="dot one"></span>
+                <span class="gender">male</span>
+              </label>
+              <label for="dot-2">
+                <span class="dot two"></span>
+                <span class="gender">female</span>
+              </label>
+              <label for="dot-3">
+                <span class="dot three"></span>
+                <span class="gender">not prefer to say</span>
+              </label>
+            </div>
+          </div>
+          <div class="Button">
+            <input type="submit" value="Register" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
